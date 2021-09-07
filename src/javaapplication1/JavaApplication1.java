@@ -20,7 +20,7 @@ public class JavaApplication1 {
         
         System.out.format("The value of e is %-10.4f%n", Math.E);
         System.out.printf("The value of pi is %10.5f%n", Math.PI);
-        System.out.printf(Locale.ENGLISH, "Using locale: %d%n", 123456789);
+        System.out.printf(Locale.ENGLISH, "Using locale: %d%n", 123456789); //locale не работает как надо
         final double PI = (double) 22/7;//объясление какого-то числа константой
         System.out.printf(String.join("%n",/* добавление %n позволяет каждую 
                 следующую строку писать с новой строки*/
